@@ -9,7 +9,7 @@ class Calculator
 public:
     std::vector<int> GetNumbersFromConsole();
     std::vector<int> GetNumbersFromFile(const std::string& filename);
-    int calculate(const std::vector<int>& numbers);
+    int calculate(const std::vector<int>& numbers , const std::string& operation);
 };
 
 #endif // CALCULATOR_H
